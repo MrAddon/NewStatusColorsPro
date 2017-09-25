@@ -1,7 +1,7 @@
 {
    "key": "com.rauliki.newstatuscolors",
    "name": "New Status Colors PRO for JIRA Cloud",
-   "version": "1.8",
+   "version": "1.9",
    "description": "This is an extension for your JIRA Cloud to COLORIZE the statuses. In the description of the status put '(colorname)' and install in your browser the plugin to COLORIZE. See more in http://documentation.mraddon.com",
    "vendor": {
       "name": "MrAddon raulpelaez@mraddon.com",
@@ -16,7 +16,7 @@
       "webSections": [
         {
             "key": "links",
-            "location": "system.top.navigation.bar",
+            "location": "jira.hints",
 			"weight": 10,
             "name": {
                 "value": "New Status Colors PRO"
