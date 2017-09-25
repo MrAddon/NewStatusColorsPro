@@ -1,7 +1,7 @@
 {
    "key": "com.rauliki.newstatuscolors",
    "name": "New Status Colors PRO for JIRA Cloud",
-   "version": "2.2",
+   "version": "2.3",
    "description": "This is an extension for your JIRA Cloud to COLORIZE the statuses. In the description of the status put '(colorname)' and install in your browser the plugin to COLORIZE. See more in http://documentation.mraddon.com",
    "vendor": {
       "name": "MrAddon raulpelaez@mraddon.com",
@@ -24,19 +24,11 @@
                 "value": "New Status Colors PRO"
             }
         }
-    ,
-    {
-            "key": "links2",
-            "location": "system.top.navigation.bar",
-			"weight": 10,
-            "name": {
-                "value": "NewColors!"
-            }
-        }
+   
     ], 
     "webItems": [
       {
-        "location": "system.top.navigation.bar/links2",
+        "location": "system.top.navigation.bar",
         "weight": 200,
         "styleClasses": [
           "webitem",
@@ -84,6 +76,32 @@
           "value": "Install in Google Chrome"
         },
         "key": "install"
+      }
+      ,
+      {
+        "location": "system.user.options",
+        "weight": 200,
+        "styleClasses": [
+          "webitem",
+          "system-present-webitem"
+        ],
+        "url": "https://chrome.google.com/webstore/detail/new-status-colors-pro-for/ambfnpmanbfkcfoocddoicfaodljjahb?authuser=1",
+        "context": "product",
+        "target": {
+          "type": "page"
+        },
+        "tooltip": {
+          "value": "Install in Chrome New Status Colors PRO"
+        },
+        "icon": {
+          "width": 16,
+          "height": 16,
+          "url": "/icon.png"
+        },
+        "name": {
+          "value": "Install in Chrome New Status Colors PRO"
+        },
+        "key": "install-2"
       }
     ]
   }
