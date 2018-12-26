@@ -1,13 +1,13 @@
 {
    "key": "com.rauliki.newstatuscolors",
    "name": "New Status Colors PRO for JIRA Cloud",
-   "version": "2.4",
+   "version": "3.3",
    "description": "This is an extension for your JIRA Cloud to COLORIZE the statuses. In the description of the status put '(colorname)' and install in your browser the plugin to COLORIZE. See more in http://documentation.mraddon.com",
    "vendor": {
       "name": "MrAddon raulpelaez@mraddon.com",
       "url": "http://www.MrAddon.com"
    },
-   "baseUrl": "https://raw.githubusercontent.com/rpelaez/NewStatusColorsPro/master/",
+   "baseUrl": "https://raw.githubusercontent.com/mraddon/NewStatusColorsPro/master/",
    "enableLicensing": true,
    "authentication": {
       "type": "none"
@@ -34,13 +34,13 @@
           "webitem",
           "system-present-webitem"
         ],
-        "url": "https://chrome.google.com/webstore/detail/new-status-colors-pro-for/ambfnpmanbfkcfoocddoicfaodljjahb?authuser=1",
+        "url": "https://mraddon.github.io/CheckBrowser/new_status_colors.html",
         "context": "product",
         "target": {
           "type": "page"
         },
         "tooltip": {
-          "value": "Install in Chrome New Status Colors PRO"
+          "value": "Install in Browser New Status Colors PRO"
         },
         "icon": {
           "width": 16,
@@ -59,13 +59,13 @@
           "webitem",
           "system-present-webitem"
         ],
-        "url": "https://chrome.google.com/webstore/detail/new-status-colors-pro-for/ambfnpmanbfkcfoocddoicfaodljjahb?authuser=1",
+        "url": "https://mraddon.github.io/CheckBrowser/new_status_colors.html",
         "context": "product",
         "target": {
           "type": "page"
         },
         "tooltip": {
-          "value": "Install in Google Chrome"
+          "value": "Install in Browser"
         },
         "icon": {
           "width": 16,
@@ -73,7 +73,7 @@
           "url": "/icon.png"
         },
         "name": {
-          "value": "Install in Google Chrome"
+          "value": "Install in Browser"
         },
         "key": "install"
       }
